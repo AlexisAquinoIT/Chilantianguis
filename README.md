@@ -2,7 +2,7 @@
 Chilantianguis is a free map of Mexico City's tianguis, public markets, local shops, and small businesses. Discover products, opening hours, and discounts, or let merchants list their stalls and receive simple orders. Built as an MVP for Chilangatón 2026, it helps connect local businesses with their communities.
 
 
-## 📦 Technologies
+## 🧰 Technologies
 - `Python`
 - `Flask`
 - `SQLite`
@@ -11,7 +11,7 @@ Chilantianguis is a free map of Mexico City's tianguis, public markets, local sh
 - `Pillow`
 
 
-## 🦄 Features
+## 🏮 Features
 
 Here's what you can do with Chilantianguis:
 
@@ -35,7 +35,7 @@ Here's what you can do with Chilantianguis:
 
 - **Request a New Tianguis**: Associations of vendors can fill out a form to ask for their tianguis to be added to the map.
 
-## 👨‍🍳 The Process
+## 🏗️ The Process
 
 I started by thinking about who would use the platform: people looking for places to shop, and small merchants who need visibility. With that clear, I designed the database, which is basically the list of everything the site needs to remember: users, places, opening hours, stalls, products, categories, sales, orders and wholesale groups. I added rules to it, so for example a price can never be zero and a discount can never end before it starts.
 
@@ -49,7 +49,7 @@ After that, I added the merchant side: sign-up with a phone number and a simulat
 
 Finally, I focused on safety and honesty: protection against forged form submissions, safely stored passwords, checked images, private phone numbers by default and clear labels wherever the data is an example.
 
-## 📚 What I Learned
+## 🧠 What I Learned
 
 During this project, I picked up new skills and a better understanding of how a complete web application fits together.
 
@@ -75,7 +75,7 @@ During this project, I picked up new skills and a better understanding of how a 
 ### 📈 Overall Growth:
 Each part of this project helped me understand more about building a full application, from the database to the screen the user sees. It was more than just making a website. It was about solving real problems for small local businesses, learning new tools and writing code that is safe and organized.
 
-## 💭 How can it be improved?
+## 🛠️ How can it be improved?
 - Send real verification text messages instead of the simulated code.
 - Add real online payments.
 - Add a review screen where administrators can approve or reject tianguis requests.
@@ -118,8 +118,8 @@ To run the project on your own computer (Windows with PowerShell), follow these 
    .\.venv\Scripts\python.exe -m flask --app app run --debug
 ```
 
-7. Open [(http://127.0.0.1:5000) in your web browser.
+7. Open `http://127.0.0.1:5000` in your web browser.
 
-To try the merchant side: click "Tengo un puesto", type any 10-digit cell phone number and use the verification code ```111111```. This code is a simulation made for the demo, and no real text message is sent. The map needs an internet connection to load.
+To try the merchant side: click "Tengo un puesto", type any 10-digit cell phone number and use the verification code ```111111``` This code is a simulation made for the demo, and no real text message is sent. The map needs an internet connection to load.
 
-## 🍿 Video
+## 🎞️ Video
