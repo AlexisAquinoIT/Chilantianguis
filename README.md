@@ -123,3 +123,5 @@ To run the project on your own computer (Windows with PowerShell), follow these 
 To try the merchant side: click "Tengo un puesto", type any 10-digit cell phone number and use the verification code ```111111``` This code is a simulation made for the demo, and no real text message is sent. The map needs an internet connection to load.
 
 ## 🎞️ Video
+https://github.com/user-attachments/assets/79ba7a69-5079-4411-b14e-c752bfa4594c
+
